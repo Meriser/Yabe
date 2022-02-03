@@ -1,0 +1,320 @@
+body {
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5373ff), color-stop(#a9d6ff), to(aliceblue));
+  background-image: -o-linear-gradient(#5373ff, #a9d6ff, aliceblue);
+  background-image: linear-gradient(#5373ff, #a9d6ff, aliceblue);
+  position: relative; }
+
+.ball1 {
+  left: 10%;
+  top: 10%;
+  -webkit-box-shadow: 0 0 15px white;
+          box-shadow: 0 0 15px white;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s; }
+  @media (max-width: 768px) {
+    .ball1 {
+      width: 3rem;
+      height: 3rem; } }
+  @media (max-width: 568px) {
+    .ball1 {
+      width: 2rem;
+      height: 2rem; } }
+  .ball1:hover {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: scale(1.35);
+        -ms-transform: scale(1.35);
+            transform: scale(1.35); }
+  .ball1:active {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s; }
+
+.ball2 {
+  left: 20%;
+  top: 20%;
+  -webkit-box-shadow: 0 0 15px aliceblue;
+          box-shadow: 0 0 15px aliceblue;
+  background-color: aliceblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s; }
+  @media (max-width: 768px) {
+    .ball2 {
+      width: 3rem;
+      height: 3rem; } }
+  @media (max-width: 568px) {
+    .ball2 {
+      width: 2rem;
+      height: 2rem; } }
+  .ball2:hover {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: scale(1.35);
+        -ms-transform: scale(1.35);
+            transform: scale(1.35); }
+  .ball2:active {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s; }
+
+.ball3 {
+  left: 30%;
+  top: 30%;
+  -webkit-box-shadow: 0 0 15px lavender;
+          box-shadow: 0 0 15px lavender;
+  background-color: lavender;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s; }
+  @media (max-width: 768px) {
+    .ball3 {
+      width: 3rem;
+      height: 3rem; } }
+  @media (max-width: 568px) {
+    .ball3 {
+      width: 2rem;
+      height: 2rem; } }
+  .ball3:hover {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: scale(1.35);
+        -ms-transform: scale(1.35);
+            transform: scale(1.35); }
+  .ball3:active {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s; }
+
+.ball4 {
+  left: 40%;
+  top: 40%;
+  -webkit-box-shadow: 0 0 15px white;
+          box-shadow: 0 0 15px white;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s; }
+  @media (max-width: 768px) {
+    .ball4 {
+      width: 3rem;
+      height: 3rem; } }
+  @media (max-width: 568px) {
+    .ball4 {
+      width: 2rem;
+      height: 2rem; } }
+  .ball4:hover {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: scale(1.35);
+        -ms-transform: scale(1.35);
+            transform: scale(1.35); }
+  .ball4:active {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s; }
+
+.ball5 {
+  left: 50%;
+  top: 50%;
+  -webkit-box-shadow: 0 0 15px lightyellow;
+          box-shadow: 0 0 15px lightyellow;
+  background-color: lightyellow;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s; }
+  @media (max-width: 768px) {
+    .ball5 {
+      width: 3rem;
+      height: 3rem; } }
+  @media (max-width: 568px) {
+    .ball5 {
+      width: 2rem;
+      height: 2rem; } }
+  .ball5:hover {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: scale(1.35);
+        -ms-transform: scale(1.35);
+            transform: scale(1.35); }
+  .ball5:active {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s; }
+
+.ball6 {
+  left: 60%;
+  top: 60%;
+  -webkit-box-shadow: 0 0 15px white;
+          box-shadow: 0 0 15px white;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s; }
+  @media (max-width: 768px) {
+    .ball6 {
+      width: 3rem;
+      height: 3rem; } }
+  @media (max-width: 568px) {
+    .ball6 {
+      width: 2rem;
+      height: 2rem; } }
+  .ball6:hover {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: scale(1.35);
+        -ms-transform: scale(1.35);
+            transform: scale(1.35); }
+  .ball6:active {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s; }
+
+.ball7 {
+  left: 70%;
+  top: 70%;
+  -webkit-box-shadow: 0 0 15px lightyellow;
+          box-shadow: 0 0 15px lightyellow;
+  background-color: lightyellow;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s; }
+  @media (max-width: 768px) {
+    .ball7 {
+      width: 3rem;
+      height: 3rem; } }
+  @media (max-width: 568px) {
+    .ball7 {
+      width: 2rem;
+      height: 2rem; } }
+  .ball7:hover {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: scale(1.35);
+        -ms-transform: scale(1.35);
+            transform: scale(1.35); }
+  .ball7:active {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s; }
+
+.ball8 {
+  left: 80%;
+  top: 80%;
+  -webkit-box-shadow: 0 0 15px lemonchiffon;
+          box-shadow: 0 0 15px lemonchiffon;
+  background-color: lemonchiffon;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s; }
+  @media (max-width: 768px) {
+    .ball8 {
+      width: 3rem;
+      height: 3rem; } }
+  @media (max-width: 568px) {
+    .ball8 {
+      width: 2rem;
+      height: 2rem; } }
+  .ball8:hover {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: scale(1.35);
+        -ms-transform: scale(1.35);
+            transform: scale(1.35); }
+  .ball8:active {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s; }
+
+/*# sourceMappingURL=all.css.map */
