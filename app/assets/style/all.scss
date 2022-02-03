@@ -1,0 +1,79 @@
+@mixin pad {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: 568px) {
+    @content;
+  }
+}
+
+@mixin ball($left, $top, $color) {
+  left: $left;
+  top: $top;
+  box-shadow: 0 0 15px $color;
+  background-color: $color;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  transition: 0.35s;
+  @include pad {
+    width: 3rem;
+    height: 3rem;
+  }
+  @include mobile {
+    width: 2rem;
+    height: 2rem;
+  }
+  &:hover {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    transition: 0.5s;
+    transform: scale(1.35);
+  }
+  &:active {
+    background-image: url(https://upload.cc/i1/2022/02/02/7bq3fT.png);
+    background-size: 1.75rem;
+    transition: 0.2s;
+  }
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+    rgb(83, 115, 255),
+    rgb(169, 214, 255),
+    aliceblue
+  );
+  position: relative;
+}
+
+.ball1 {
+  @include ball(10%, 10%, white);
+}
+.ball2 {
+  @include ball(20%, 20%, aliceblue);
+}
+.ball3 {
+  @include ball(30%, 30%, lavender);
+}
+.ball4 {
+  @include ball(40%, 40%, white);
+}
+.ball5 {
+  @include ball(50%, 50%, lightyellow);
+}
+.ball6 {
+  @include ball(60%, 60%, white);
+}
+.ball7 {
+  @include ball(70%, 70%, lightyellow);
+}
+.ball8 {
+  @include ball(80%, 80%, lemonchiffon);
+}
